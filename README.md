@@ -94,7 +94,7 @@ The *getForecast* and *getExtendedForecast* methods send an asyncronus request t
         "fcttext" : "Partly cloudy in the morning, then clear. High of 68F. Breezy. Winds from the West at 10 to 25 mph.",
         "fcttext_metric" : "Partly cloudy in the morning, then clear. High of 20C. Windy. Winds from the West at 20 to 35 km/h."
       },
-      ...
+      { ... }
     ]
   },
   "simpleforecast" : {
@@ -107,7 +107,7 @@ The *getForecast* and *getExtendedForecast* methods send an asyncronus request t
         "celsius" : "10" },
         "conditions" : "Partly Cloudy"
       },
-      ...
+      { ... }
     ]
   }
 }
@@ -153,7 +153,7 @@ The *getHourly* method sends an asyncronus request to Wunderground. If the optio
     },
     "FCTTIME" : { "epoch" : "1341338400" }
   },
-  ...
+  { ... }
 ]
 ```
 
@@ -190,7 +190,7 @@ The *getYesterday* method sends an asyncronus request to Wunderground. The callb
       "wspdm" : "9.3",
       "date" : { "pretty" : "12:56 AM PDT on July 02, 2012" }
     },
-    ...
+    { ... }
   ]
 }
 ```
@@ -228,7 +228,7 @@ The *getHistory* method sends an asyncronus request to Wunderground for the date
       "wspdm" : "9.3",
       "date" : { "pretty" : "12:56 AM PDT on July 02, 2012" }
     },
-    ...
+    { ... }
   ],
   "dailysummary" : [
     {
@@ -366,11 +366,9 @@ The *getGeoLookup* method sends an asyncronus request to Wunderground. The callb
           "lat" : "37.61999893",
           "lon" : "-122.37000275"
         },
-        ...
+        { ... }
       ]
-    }
-  },
-  {
+    },
     "pws" : {
       "station" : [
         {
@@ -382,7 +380,7 @@ The *getGeoLookup* method sends an asyncronus request to Wunderground. The callb
           "distance_mi" : 0,
           "distance_km" : 0
         },
-        ...
+        { ... }
       ]
     }
   }
@@ -452,7 +450,7 @@ The *getCurrentHurricanes* method sends an asyncronus request to Wunderground. T
           },
           "Time" : { "epoch" : "1341900000" }
         },
-        ...
+        { ... }
       ],
       "ExtendedForecast" : [
         {
@@ -467,7 +465,7 @@ The *getCurrentHurricanes* method sends an asyncronus request to Wunderground. T
           },
           "Time" : { "epoch" : "1342159200" }
         },
-        ...
+        { ... }
       ],
       "track" : [
         {
@@ -481,10 +479,10 @@ The *getCurrentHurricanes* method sends an asyncronus request to Wunderground. T
           },
           "Time" : { "epoch" : "1341835200" }
         },
-        ...
+        { ... }
       ],
     },
-    ...
+    { ... }
   ]
 ```
 
@@ -515,7 +513,7 @@ The *getTides* method sends an asyncronus request to Wunderground. The callback 
       "lat" : "33.6033",
       "lon" : "-117.883"
     },
-    ...
+    { ... }
   ],
   "tideSummary" : [
     {
@@ -525,14 +523,14 @@ The *getTides* method sends an asyncronus request to Wunderground. The callback 
         "type" : "Low Tide"
       }
     },
-    ...
+    { ... }
   ],
   "tideSummaryStats" : [
     {
       "maxheight" : 6.870000,
       "minheight" : -1.450000
     },
-    ...
+    { ... }
  ]
 }
 ```
