@@ -1,7 +1,7 @@
 # Wunderground
 [Weather Underground](http://wunderground.com) is a commercial weather service that provides real-time weather information via the Internet.  To use Weather Underground you will need to create an API key [here](http://www.wunderground.com/weather/api/).  All Weather Underground requests in this library are sent asyncronously and require a callback function to receive requested data.
 
-**To add this library to your project, add `#require "Wunderground.class.nut:1.0.0"` to the top of your device code.**
+**To add this library to your project, add `#require "Wunderground.class.nut:1.0.0"` to the top of your agent code.**
 
 You can view the library’s source code on [GitHub](https://github.com/electricimp/Wunderground/tree/v1.0.0).
 
